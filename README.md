@@ -46,7 +46,7 @@ const duplicates = []; // All the duplicate numbers.
 ```
 arr.forEach((num) =>  (store.includes(num) && !duplicates.includes(num) ? duplicates.push(num) : store.push(num)));
 ```
-First, the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach()</a> method will iterate on every index of the listOfNums. Then a ternary operator comes in to evaluate whether a number is duplicated or not. The condition to evaluate is if a number of the listOfNums exists on the store variable and if the duplicate variable doesn't have that num with the <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">includes() method</a>. If true, the number will be pushed to the duplicates variable. If false, the num will be pushed to the store variable.
+First, the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach()</a> method will iterate on every index of the listOfNums. Then a ternary operator comes in to evaluate whether a number is duplicated or not. The condition to evaluate is if a number of the listOfNums exists on the store variable and if the duplicate variable doesn't have that num with the <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">includes()</a> method. If true, the number will be pushed to the duplicates variable. If false, the num will be pushed to the store variable.
 
 ### 5. The return statement
 Once each index of the listOfNums has been evaluated and added to the corresponding variable, the function will return the repeated number stored on the duplicates variable:
