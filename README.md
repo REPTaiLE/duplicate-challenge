@@ -1,4 +1,4 @@
-# Duplicates Challenge
+# Duplicate Challenge
 
 In this challenge we are going to evaluate an array of numbers and determine wheter duplicate numbers are found in the array or not. 
 The following code is written in JavaScript, then if you want to execute the code you must have <a href="https://nodejs.org/en">NodeJS</a> installed. So, if you doesn't have NodeJS installed yet you must install it first.
